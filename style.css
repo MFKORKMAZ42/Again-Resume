@@ -16,7 +16,7 @@ a {
 .mainContainer {
   width: 595px;
   min-height: 842px;
-  max-height: 1123px;
+  height: 950px;
   margin: 20px auto;
   background-color: #fff;
   box-shadow: 0px 0px 10px 0 rgba(0, 0, 0, 0.306);
@@ -52,6 +52,7 @@ a {
   width: 95%;
   height: 95%;
   border-radius: 50%;
+  /* box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset; */
 }
 
 .myMail {
@@ -141,7 +142,7 @@ a {
   color: #171515;
 }
 
-.myNetlify {
+.bootstrap {
   border-bottom: 1px solid #fff;
   border-radius: 20px;
 
@@ -150,7 +151,7 @@ a {
   margin-top: 5px;
   text-align: center;
 }
-.myNetlify a {
+.bootstrap a {
   font-size: 12px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: #0072b1;
@@ -158,8 +159,8 @@ a {
   /* color: #171515; */
 }
 
-#netlify {
-  color: #171515;
+#bootstrap {
+  color: #563d7c;
 }
 
 .skills {
@@ -211,7 +212,7 @@ a {
   padding-top: 1px;
   padding-bottom: 5px;
   margin-bottom: 10px;
-  margin-left: 10px;
+  margin-left: 20px;
 }
 
 .engTitle {
@@ -219,12 +220,13 @@ a {
   color: rgb(63, 59, 59);
   font-style: oblique;
   margin-bottom: 2px;
-  font-family: fantasy;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 .engDetail {
   font-size: 12px;
-  color: rgb(114, 112, 112);
+  color: rgb(141, 139, 139);
   font-style: italic;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -238,16 +240,16 @@ a {
   color: rgb(63, 59, 59);
   margin-bottom: 2px;
   font-style: oblique;
-  font-family: fantasy;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 .trDetail {
   font-size: 12px;
-  color: rgb(114, 112, 112);
+  color: rgb(141, 139, 139);
   font-style: italic;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-
   padding-left: 10px;
   margin-left: 10px;
 }
@@ -396,7 +398,6 @@ a {
 
 .projectBaslik {
   background-color: rgb(214, 206, 206);
-
   margin: 20px 15px;
   margin-bottom: 5px;
   font-size: 20px;
@@ -504,6 +505,7 @@ a {
 }
 
 .todoapp {
+  margin-bottom: 5px;
 }
 
 .todoapp h4 {
@@ -522,6 +524,32 @@ a {
 }
 
 .todoapp a {
+  color: rgb(20, 39, 211);
+  font-size: 12px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-left: 15px;
+}
+
+.todoapp {
+}
+
+.africa h4 {
+  font-size: 18px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: rgb(63, 59, 59);
+}
+
+.africa p {
+  color: black;
+  font-size: 16px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+
+  margin-left: 15px;
+}
+
+.africa a {
   color: rgb(20, 39, 211);
   font-size: 12px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
